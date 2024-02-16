@@ -1,0 +1,27 @@
+.data {
+    letter-spacing: 2px;
+    &__dia{
+        font-size: 30px;
+    }
+
+    &__mda{
+        display: inline-flex;
+        font-size: 25px;
+        align-items: center;
+
+        &__mes, &__ano{
+            margin: 5px 0;
+            border-bottom: solid 3px #D3BA86;
+            border-top: solid 3px #D3BA86;
+        }
+
+        &__dia {
+            font-size: 50px;
+            padding: 0 10px;
+        }
+    }
+
+    &__horario{
+        font-size: 15px;
+    }
+}
